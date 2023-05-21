@@ -1,0 +1,25 @@
+
+@media (max-width: 767px) {
+	.navbar-inverse {  background:rgba(0,0,0,.9); }
+}
+
+
+
+
+.navbar-nav .btn { border:1px solid rgba(255, 255, 255, .2); margin-left:5px; margin-top:5px; padding-top:10px; padding-bottom:10px; }
+
+.navbar-nav a.btn:focus, 
+.navbar-nav a.btn:hover  { border:1px solid rgba(255,255,255,.6); }
+
+.navbar-collapse { border:0 none;  border-top:0 none; box-shadow: none; }
+@media (max-width: 767px) {
+	.navbar-collapse ul { text-align: center;  width:100%; padding-bottom:10px; }
+	.navbar-collapse ul .btn{ max-width:50%; margin:0 auto; }
+}
+
+.navbar-static-top,
+.navbar-fixed-top,
+.navbar-fixed-bottom { border-radius: 0; }
+
+
+
